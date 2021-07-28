@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>삼각형 판별하기</title>
+  </head>
+  <body>
+    <script>
+      // 삼각형
+      // 가장 긴 막대 길이 < 나머지 두 막대 길이
+      function solution(a, b, c) {
+        let answer = "YES";
+        let arr = [a, b, c].sort((a, b) => b - a); // 내림차순 정렬
+        // let max = Math.max(a, b, c);
+
+        if (arr[0] > arr[1] + arr[2]) {
+          answer = "NO";
+        }
+
+        return answer;
+      }
+
+      console.log(solution(13, 33, 17));
+    </script>
+  </body>
+</html>
