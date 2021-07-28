@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>연필 개수</title>
+  </head>
+  <body>
+    <script>
+      // 연필 1다스 12자루
+      // Math.ceil 올림
+      function solution(n) {
+        // let answer;
+        // if (n % 12 === 0) {
+        //   answer = parseInt(n / 12);
+        // } else {
+        //   answer = parseInt(n / 12) + 1;
+        // }
+
+        let answer = Math.ceil(n / 12);
+        return answer;
+      }
+
+      console.log(solution(178));
+    </script>
+  </body>
+</html>
