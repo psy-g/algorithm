@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>홀수</title>
+  </head>
+  <body>
+    <script>
+      function solution(arr) {
+        let answer = 0; // 홀수 합계
+        let odd = []; // 홀수 배열
+
+        for (let num of arr) {
+          if (num % 2 === 1) {
+            odd.push(num);
+            answer += num;
+          }
+        }
+
+        return [answer, Math.min(...odd)];
+      }
+
+      arr = [12, 77, 38, 41, 53, 92, 85];
+      console.log(solution(arr));
+    </script>
+  </body>
+</html>
