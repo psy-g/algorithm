@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>A를 #으로</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = "";
+        // let answer = s.replace(/A/g, '#');
+
+        for (let alphabet of s) {
+          if (alphabet === "A") {
+            answer += "#";
+          } else {
+            answer += alphabet;
+          }
+        }
+
+        return answer;
+      }
+
+      let str = "BANANA";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
