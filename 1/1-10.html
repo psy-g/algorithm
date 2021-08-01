@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>문자 찾기</title>
+  </head>
+  <body>
+    <script>
+      function solution(s, t) {
+        let arr = s.split("");
+        let answer = arr.filter((x) => x === t).length;
+
+        // let answer=s.split(t);
+        // return answer-1;
+
+        return answer;
+      }
+
+      let str = "COMPUTERPROGRAMMING";
+      console.log(solution(str, "R"));
+    </script>
+  </body>
+</html>
