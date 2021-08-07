@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>대문자 찾기</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = 0;
+        // 대문자 : 65 ~ 90
+        // 소문지 : 97 ~ 122
+
+        for (let alphabet of s) {
+          // let num = alphabet.charCodeAt();
+          if (alphabet === alphabet.toUpperCase()) answer++;
+        }
+        return answer;
+      }
+
+      let str = "KoreaTimeGood";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
