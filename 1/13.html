@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>대소문자 변환</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = s
+          .split("")
+          .map((ele) =>
+            64 < ele.charCodeAt() && ele.charCodeAt() < 91
+              ? ele.toLowerCase()
+              : ele.toUpperCase()
+          )
+          .join("");
+
+        return answer;
+      }
+
+      console.log(solution("StuDY"));
+    </script>
+  </body>
+</html>
