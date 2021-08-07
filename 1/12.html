@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>대문자로 통일</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = s
+          .split("")
+          .filter((ele) => ele.toUpperCase())
+          .join("");
+
+        return answer;
+      }
+
+      let str = "ItisTimeToStudy";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
