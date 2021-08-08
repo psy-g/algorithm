@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>중복단어제거</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = [];
+
+        answer = s.filter((ele, idx) => {
+          return s.indexOf(ele) === idx;
+        });
+
+        return answer;
+      }
+      let str = ["good", "time", "good", "time", "student"];
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
