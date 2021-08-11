@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>격자판 최대합</title>
+  </head>
+  <body>
+    <script>
+      function solution(arr) {
+        let answer = Number.MIN_SAFE_INTEGER;
+        let n = arr.length;
+        let rowSum = 0;
+        let columnSum = 0;
+
+        // 행, 열
+        for (let i = 0; i < n; i++) {
+          rowSum = 0;
+          columnSum = 0;
+          for (let j = 0; j < n; j++) {
+            rowSum += arr[i][j];
+            columnSum += arr[j][i];
+          }
+          answer = Math.max(answer, rowSum, columnSum);
+        }
+
+        // 대각선
+        let diagonal1 = 0;
+        let diagonal2 = 0;
+
+        for (let i = 0; i < n; i++) {
+          diagonal1 += arr[i][i];
+          diagonal2 += arr[i][n - i - 1];
+        }
+        answer = Math.max(answer, diagonal1, diagonal2);
+
+        return answer;
+      }
+
+      let arr = [
+        [10, 13, 10, 12, 15],
+        [12, 39, 30, 23, 11],
+        [11, 25, 50, 53, 15],
+        [19, 27, 29, 37, 27],
+        [19, 13, 30, 13, 19],
+      ];
+      console.log(solution(arr));
+    </script>
+  </body>
+</html>
