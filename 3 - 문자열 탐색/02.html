@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>유효한 팰린드롬</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = "YES";
+        let newStr = s.toUpperCase().replace(/[^A-Z]/g, "");
+
+        if (newStr !== newStr.split("").reverse().join("")) return "NO";
+
+        return answer;
+      }
+
+      let str = "found7, time: study; Yduts; emit, 7Dnuof";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
