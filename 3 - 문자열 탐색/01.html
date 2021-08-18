@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>회문 문자열</title>
+  </head>
+  <body>
+    <script>
+      function solution(s) {
+        let answer = "";
+        let newStr = s.split("").reverse().join("").toUpperCase();
+        let toUpper = str.toUpperCase();
+
+        newStr !== toUpper ? (answer = "NO") : (answer = "YES");
+
+        return answer;
+      }
+
+      let str = "goooG";
+      console.log(solution(str));
+    </script>
+  </body>
+</html>
