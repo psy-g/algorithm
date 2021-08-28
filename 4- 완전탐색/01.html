@@ -2,46 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>출력결과</title>
-  </head>
-  <body>
-    <script>
-      function solution(n, arr) {
-        let answer,
-          max = Number.MIN_SAFE_INTEGER;
-        for (let x of arr) {
-          let sum = 0,
-            tmp = x;
-          while (tmp) {
-            sum += tmp % 10;
-            tmp = Math.floor(tmp / 10);
-          }
-          if (sum > max) {
-            max = sum;
-            answer = x;
-          } else if (sum === max) {
-            if (x > answer) answer = x;
-          }
-        }
-        return answer;
-      }
-
-      let arr = [128, 460, 603, 40, 521, 137, 123];
-      console.log(solution(7, arr));
-    </script>
-  </body>
-</html>
-
-<html>
-  <head>
-    <meta charset="UTF-8" />
     <title>자리수의 합</title>
   </head>
   <body>
     <script>
       function solution(n, arr) {
-        let answer,
-          max = Number.MIN_SAFE_INTEGER;
+        let answer = [];
+        let max = Number.MIN_SAFE_INTEGER;
+
+        for(let num of arr) {
+          let numArr = String(num).split('');
+          let sum = numArr.reduce((acc, cur) => Number(acc) + Number(cur))
+
+          if(sum >= max) {
+            max = sum;
+            answer.push(num);
+          }
+        }
+
+        return Math.max(...answer);
       }
 
       let arr = [128, 460, 603, 40, 521, 137, 123];
