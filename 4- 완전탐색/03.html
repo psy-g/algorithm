@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>멘토링</title>
+  </head>
+  <body>
+    <script>
+      function solution(test) {
+        let answer = 0;
+        let testLen = test.length;
+        let student = test[0].length;
+
+        for (let i = 1; i <= student; i++) {
+          for (let j = 1; j <= student; j++) {
+            let count = 0;
+            for (let k = 0; k < testLen; k++) {
+              let stduent1Rank = 0;
+              let stduent2Rank = 0;
+              for (let s = 0; s < student; s++) {
+                if (test[k][s] === i) stduent1Rank = s;
+                if (test[k][s] === j) stduent2Rank = s;
+              }
+              if (stduent1Rank < stduent2Rank) count++;
+            }
+            if (count === testLen) answer++;
+          }
+        }
+
+        return answer;
+      }
+
+      let arr = [
+        [3, 4, 1, 2],
+        [4, 3, 2, 1],
+        [3, 1, 4, 2],
+      ];
+      console.log(solution(arr));
+    </script>
+  </body>
+</html>
