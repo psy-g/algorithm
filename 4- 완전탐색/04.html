@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>졸업 선물</title>
+  </head>
+  <body>
+    <script>
+      function solution(m, product) {
+        let answer = 0;
+        let costArr = product.sort((a, b) => a[0] + a[1] - (b[0] + b[1]));
+
+        for (let i = 0; i < costArr.length; i++) {
+          let money = m - (costArr[i][0] / 2 + costArr[i][1]);
+          let count = 1;
+
+          for (let j = 0; costArr.length; j++) {
+            if (j !== i && costArr[j][0] + costArr[j][1] > money) break;
+            if (j !== i && costArr[j][0] + costArr[j][1] <= money) {
+              money -= costArr[j][0] + costArr[j][1];
+              count++;
+            }
+          }
+          answer = Math.max(answer, count);
+        }
+
+        return answer;
+      }
+
+      let arr = [
+        [6, 6],
+        [2, 2],
+        [4, 3],
+        [4, 5],
+        [10, 3],
+      ];
+      console.log(solution(28, arr));
+    </script>
+  </body>
+</html>
