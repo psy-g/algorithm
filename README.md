@@ -35,3 +35,16 @@
 
 ### 슬라이딩 윈도우 (sliding window)
 - [최대 매출](https://github.com/psy-g/algo/blob/study/5%20-%20%ED%9A%A8%EC%9C%A8%EC%84%B1/05.html)
+
+### 해쉬 (hash)
+- [학급 회장](https://github.com/psy-g/algo/blob/study/5%20-%20%ED%9A%A8%EC%9C%A8%EC%84%B1/06.html)
+- [아나그램](https://github.com/psy-g/algo/blob/study/5%20-%20%ED%9A%A8%EC%9C%A8%EC%84%B1/07.html)
+
+### 종합(투 포인터, 슬라이딩 윈도우, 해쉬)
+- [모든 아나그램 찾기](https://github.com/psy-g/algo/blob/study/5%20-%20%ED%9A%A8%EC%9C%A8%EC%84%B1/08.html)
+
+
+## 자료구조
+### 스택 (stack)
+- [올바른 괄호](https://github.com/psy-g/algo/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/01.html)
+- [괄호 문자 제거](https://github.com/psy-g/algo/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/02.html)
