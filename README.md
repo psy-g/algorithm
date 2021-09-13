@@ -57,3 +57,8 @@
 - [크레인 인형뽑기](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/03.html)
 - [후위식 연산](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/04.html)
 - [쇠막대기](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/05.html)
+
+### 큐 (queue)
+
+- [공주 구하기](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/06.html)
+- [교육과정 설계](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/07.html)
