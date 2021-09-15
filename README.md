@@ -62,3 +62,8 @@
 
 - [공주 구하기](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/06.html)
 - [교육과정 설계](https://github.com/psy-g/algorithm/blob/study/6%20-%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/07.html)
+
+### 정렬 (sort)
+
+- [선택 정렬](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/01.html)
+- [버블 정렬](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/02.html)
