@@ -20,11 +20,11 @@
 
 ## 완전탐색 (Brute Force)
 
-- [자리수의 합](https://github.com/psy-g/algo/blob/study/4-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/01.html)
-- [뒤집은 소수](https://github.com/psy-g/algo/blob/study/4-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/02.html)
-- [멘토링](https://github.com/psy-g/algo/blob/study/4-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/03.html)
-- [졸업 선물](https://github.com/psy-g/algo/blob/study/4-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/04.html)
-- [K번째 큰 수](https://github.com/psy-g/algo/blob/study/4-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/05.html)
+- [자리수의 합](https://github.com/psy-g/algorithm/blob/study/4%20-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/01.html)
+- [뒤집은 소수](https://github.com/psy-g/algorithm/blob/study/4%20-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/02.html)
+- [멘토링](https://github.com/psy-g/algorithm/blob/study/4%20-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/03.html)
+- [졸업 선물](https://github.com/psy-g/algorithm/blob/study/4%20-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/04.html)
+- [K번째 큰 수](https://github.com/psy-g/algorithm/blob/study/4%20-%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/05.html)
 
 ## 효율성
 
