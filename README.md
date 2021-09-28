@@ -69,3 +69,7 @@
 - [버블 정렬1](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/02.html)
 - [버블 정렬2](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/03.html)
 - [삽입 정렬](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/04.html)
+
+### 그리디 (greedy)
+
+- [회의실 배정](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/08.html)
