@@ -73,3 +73,10 @@
 ### 그리디 (greedy)
 
 - [회의실 배정](https://github.com/psy-g/algorithm/blob/study/7%20-%20%EC%A0%95%EB%A0%AC%2C%20%EA%B7%B8%EB%A6%AC%EB%93%9C%2C%20%EA%B2%B0%EC%A0%95/08.html)
+
+### 깊이우선탐색 (DFS)
+
+- [재귀함수](https://github.com/psy-g/algorithm/blob/study/8%20-%20%EC%9E%AC%EA%B7%80%2C%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/01.html)
+- [이진수 출력](https://github.com/psy-g/algorithm/blob/study/8%20-%20%EC%9E%AC%EA%B7%80%2C%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/02.html)
+- [이진트리 순회](https://github.com/psy-g/algorithm/blob/study/8%20-%20%EC%9E%AC%EA%B7%80%2C%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/03.html)
+- [부분집합 구하기](https://github.com/psy-g/algorithm/blob/study/8%20-%20%EC%9E%AC%EA%B7%80%2C%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89/04.html)
